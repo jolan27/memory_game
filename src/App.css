@@ -37,10 +37,21 @@
   }
 }
 
-table {
-  border: solid black;
+/* App.css */
+.Table {
+  display: grid;
+  grid-template-columns: repeat(4, 80px); 
+  gap: 10px;
 }
 
-tr {
-  border: solid 1px black;
+.card {
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
 }

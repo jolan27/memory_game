@@ -1,10 +1,18 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { Grille } from './Grille';
+import Cartes from './Cartes';
+import Grille from './Grille';
 
 function App() {
   return (
-    <Grille />
+    <div>
+      <h3>Memory Game </h3>
+      <div>
+        <Grille/>
+      </div>
+    </div>
+    
   );
 }
 
