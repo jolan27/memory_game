@@ -3,11 +3,12 @@ import React from 'react';
 import './App.css';
 import Cartes from './Cartes';
 import Grille from './Grille';
+import { useState } from 'react';
 
 function App() {
   return (
     <div>
-      <h3>Memory Game </h3>
+      <h2>Memory Game </h2>
       <div>
         <Grille/>
       </div>
